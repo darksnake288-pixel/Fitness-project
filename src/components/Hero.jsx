@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div>
       <section className="bg-white dark:bg-neutral-800 dark:text-white">
-        <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center py-12 px-8 md:px-20 min-h-[80vh] gap-10">
+        <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center py-12 px-6 sm:px-8 md:px-20 min-h-[80vh] gap-10">
             {/**left Section */}
             <motion.div 
                 initial={{ opacity: 0, x: -50 }}
@@ -15,7 +15,7 @@ const Hero = () => {
                 className="max-w-lg text-center lg:text-left"
             >
                 <motion.p className="text-sm uppercase font-semibold tracking-wide text-neutral-500 dark:text-neutral-300">Work Smarter, Achieve More</motion.p>
-                <motion.h1 className="text-5xl font-bold leading-tight mt-4 ">Simple Fitness experience for everyone</motion.h1>
+                <motion.h1 className="text-4xl sm:text-5xl font-bold leading-tight mt-4 ">Simple Fitness experience for everyone</motion.h1>
                 <motion.p className="mt-6 text-gray-600 dark:text-gray-300 text-sm">
                     Track your workouts, get better results, and be the best version of you. Less thinking, more lifting.
                 </motion.p>
