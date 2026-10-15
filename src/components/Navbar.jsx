@@ -5,7 +5,7 @@ const Navbar = ({darkMode,setDarkMode}) => {
   return (
     <motion.div>
         <motion.header className="bg-white dark:bg-neutral-800 dark:text-white shadow-sm">
-            <motion.div className="container mx-auto flex justify-between items-center px-8 py-4">
+            <motion.div className="container mx-auto flex justify-between items-center px-4 sm:px-8 py-4">
                 {/**Logo Section */}
                     <motion.div className="flex items-center gap-2">
                     <motion.div className="text-orange-400 text-2xl">
